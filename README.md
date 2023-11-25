@@ -1,2 +1,1 @@
-# rvspoc
-RISC-V Software Porting and Optimization Championship
+# RISC-V 软件移植及优化锦标赛
