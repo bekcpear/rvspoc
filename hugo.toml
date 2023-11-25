@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = false
 
 [permalinks]
   [permalinks.page]
-    posts = '/:slug/'
+    posts = '/:year/:month/:day/:slug/'
   [permalinks.section]
     posts = '/posts/'
 
