@@ -1,14 +1,24 @@
-baseURL = 'https://rvspoc.org/'
-languageCode = 'zh-CN'
-title = 'RISC-V 软件移植及优化锦标赛'
-theme = 'ananke'
 
-defaultContentLanguage = 'zh'
+baseURL                        = 'https://rvspoc.org/'
+languageCode                   = 'zh-CN'
+title                          = 'RISC-V 软件移植及优化锦标赛'
+theme                          = 'ananke'
+paginate                       = 10
+timeZone                       = "Asia/Shanghai"
+pluralizeListTitles            = false
+defaultContentLanguage         = 'zh'
 defaultContentLanguageInSubdir = false
+
+
+[permalinks]
+  [permalinks.page]
+    posts = '/:slug/'
+  [permalinks.section]
+    posts = '/posts/'
 
 [languages]
   [languages.zh]
-    contentDir = 'content'
+    contentDir = 'content/zh'
     disabled = false
     languageCode = 'zh-CN'
     languageDirection = 'ltr'
