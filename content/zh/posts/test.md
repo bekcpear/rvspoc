@@ -7,6 +7,8 @@ omit_header_text = true
 slug = '000'
 +++
 
+[ajskdl](../001/)
+
 ## 活动名称
 
 中文名称：RISC-V 软件移植及优化锦标赛
