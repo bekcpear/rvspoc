@@ -15,7 +15,7 @@
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="justify-between mw8 center ph3">
     {{ if (eq .Section "challenges") }}
-    <nav class="f7"><a href='{{ relLangURL "/" }}'>{{ i18n "home" | default "Home" }}</a><span>/</span><a href='{{ relLangURL "/challenges/"}}'>{{ .CurrentSection.Title }}</a></nav>
+    <nav class="f7"><a href='{{ relLangURL "" }}'>{{ i18n "home" | default "Home" }}</a><span>/</span><a href='{{ relLangURL "challenges/"}}'>{{ .CurrentSection.Title }}</a></nav>
     {{ end }}
     <header class="mt4 w-100">
       {{ partial "social-share.html" . }}
