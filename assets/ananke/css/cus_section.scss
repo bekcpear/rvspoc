@@ -121,8 +121,10 @@ body>main>article.challenges {
 	ul.pagination {
 		padding: 0;
 		li {
+			margin-right: 8px;
 			a {
 				border-radius: 0;
+				border: 1px solid #EAEAEA;
 			}
 			&.active a {
 				background: none;
