@@ -14,10 +14,10 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
     {{ if (eq .Section "challenges") }}
-  <article class="justify-between mw8 center ph3 challenge">
+  <article class='justify-between mw8 center ph3 challenge {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     <nav class="f7"><a href='{{ relLangURL "" }}'>{{ i18n "home" | default "Home" }}</a><span>/</span><a href='{{ relLangURL "challenges/"}}'>{{ .CurrentSection.Title }}</a></nav>
     {{ else }}
-  <article class="justify-between mw8 center ph3 serif">
+  <article class='justify-between mw8 center ph3 serif {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
     {{ end }}
     <header class="mt4 w-100">
       {{ partial "social-share.html" . }}

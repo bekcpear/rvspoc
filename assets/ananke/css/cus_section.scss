@@ -85,7 +85,7 @@ body>main>article.challenges {
 						color: var(--fg-less);
 					}
 					.currency {
-						margin-left: 0.1em;
+						margin-left: 0.5em;
 					}
 				}
 			}
@@ -132,4 +132,6 @@ body>main>article.challenges {
 	}
 }
 
-
+body>main>article.challenges.cjk>section ul li .meta div .currency {
+	margin-left: 0.1em;
+}

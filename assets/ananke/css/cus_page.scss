@@ -31,9 +31,12 @@ body>main>article {
 			margin-right: 0.5em;
 		}
 		span.currency {
-			margin-left: 0.2em;
+			margin-left: 0.5em;
 		}
 	}
+}
+body>main>article.cjk #challenges-meta>div span.currency {
+	margin-left: 0.2em;
 }
 
 #article-body {
