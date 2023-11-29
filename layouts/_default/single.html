@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      {{- if .Params.toc -}}
+      {{- if and .Params.toc (ne .TableOfContents `<nav id="TableOfContents"></nav>`) -}}
       <aside id="toc" class="f6">
         <div class="">
           <p class="f5 b mb3">{{ i18n "toc" . }}</p>

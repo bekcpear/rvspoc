@@ -144,6 +144,7 @@ body>main>article.cjk #challenges-meta>div span.currency {
 
 	// article main content
 	>div {
+		position: relative;
 		h1,h2 {
 			border-bottom: 1px solid var(--bg-less);
 		}
@@ -211,6 +212,12 @@ body>main>article.cjk #challenges-meta>div span.currency {
 				display: inline;
 				margin: 0;
 			}
+		}
+		img {
+			position: relative;
+			display: block;
+			max-width: 100%;
+			margin: 0 auto;
 		}
 	}
 }
