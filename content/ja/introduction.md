@@ -13,8 +13,8 @@ RISC-V 软件移植及优化锦标赛是由 PLCT 实验室和算能科技联合�
 
 所有提交结果需要在以下 RISC-V 硬件环境中验证，每个赛题会指定至少一种：
 
-- SG2042/Pioneer Box （简称 SG2042）
-- CV1800B/Milk-V Duo （简称 Duo）
+- SG2042/Pioneer Box（简称 SG2042）
+- CV1800B/Milk-V Duo（简称 Duo）
 
 ## 赛题公布
 
