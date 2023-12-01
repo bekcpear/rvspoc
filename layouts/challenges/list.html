@@ -2,8 +2,8 @@
   <body class="ma0 section-challenges {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 {{ end }}
 {{ define "main" }}
-  <article class='in-section center sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
-    <div class="f7 center measure-wide lh-copy">
+  <article class='in-section sans-serif fw3 {{ if or (or (eq .Lang "zh") (eq .Lang "ja")) (eq .Lang "ko") }}cjk{{ end }}'>
+    <div class="f7 center ph3 measure-wide lh-copy">
       {{- .Content -}}
     </div>
   </article>
